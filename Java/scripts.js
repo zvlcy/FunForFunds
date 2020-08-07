@@ -1,4 +1,4 @@
-var accordions = document.getElementsByClassName("accordion");
+var accordions = document.getElementsByClassName("accordion");{
 
 for (var i = 0; i < accordions.length; i++) {
   accordions[i].onclick = function() {
@@ -17,9 +17,4 @@ for (var i = 0; i < accordions.length; i++) {
 
   }
 }
-
-function ticketpurchase() {
-    document.getElementById("purchasetext").innerHTML =
-    "'Thankyou for your purchase! We will sent the receipt to '" + mail + "' shortly :)'";
-  }
 }
