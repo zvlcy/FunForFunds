@@ -8,19 +8,132 @@ Zulkarnain bin Md Sabri (1824841)
 
 ‘FunForFunds’ is a website for a charity concert event based in Kuala Lumpur, Malaysia.
 1. Group Contributions
-Each of the team members prepared or contributed to at least 2 web pages for the progress presentation as shown in Table 1.
+Each of the team members prepared at least 2 web pages for the progress presentation as shown in Table 1.
 Table 1
 Akmal
-index.html, ed.html, nissa.html, faizal.html, kclique.html, order.html, ticketorder.html
+ed.html, nissa.html, faizal.html, kclique.html
 Syazani
-index.html, Goods.html, order.html
+Goods.html, order.html
 Imran
 index.html, ContactUs.html
 Zulkarnain
-Info.html, ed.html, nissa.html, faizal.html, kclique.html, Tickets.html, ticketorder.html
+Info.html, Tickets.html, ticketorder.html
+
+
+
+Page
+Contribution
+index.html
+Akmal :
+Layout
+Index css
+Button
+Logo
+Imran : 
+Tentative
+Wording
+
+Info.html
+Zulkarnain :
+Venue iframe
+Venue css
+Akmal :
+Guests flipcard
+Flipcard link to artist
+Info css
+
+Goods.html
+Syazani:
+Goods
+
+Tickets.html
+Zulkarnain :
+Tickets flipcard
+Flipcard hyperlinks
+Venue iframe
+Venue css
+Tickets css
+
+ContactUs.html
+Akmal :
+Layout
+Social media button
+ContactUs css
+Imran :
+Accordion
+Accordian JavaScript
+ContactUs.css
+Syazani:
+Feedback form
+
+Ed.html
+Akmal :
+Layout and details
+Back button
+guest css
+Youtube iframe
+Zulkarnain :
+Spotify iframe
+
+
+Faizal.html
+Akmal :
+Layout and details
+Back button
+guest css
+Youtube iframe
+
+Zulkarnain :
+Spotify iframe
+
+Nissa.html
+Akmal :
+Html
+Back button
+guest css
+Youtube iframe
+
+Zulkarnain :
+Spotify iframe
+
+Kclique.html
+Akmal :
+Html
+Back button
+guest css
+Youtube iframe
+
+Zulkarnain :
+Spotify iframe
+
+Order.html
+Syazani : 
+Form
+Zulkarnain :
+Recaptcha
+Akmal :
+Form css
+Button
+Order JavaScript
+
+Ticketorder.html
+Syazani : 
+Form
+Zulkarnain :
+Form
+Recaptcha
+Akmal :
+Form css
+Button
+TicketOrder JavaScript
+
+Create github page
+Zulkarnain
+Navigation Bar
+Imran
 
 2. Future Enhancement
-Github webpage:
+Github working webpage:
 https://zvlcy.github.io/FunForFunds/
 Github repository (files) page:
 https://github.com/zvlcy/FunForFunds
@@ -38,7 +151,13 @@ Akmal
 •      	Web Elements:  Recaptcha, Forms, Embed iframes
 3. Use of Third-Party Resources
 reCAPTCHA by Google
-https://www.google.com/recaptcha/about/ 
+https://www.google.com/recaptcha/about/
+Google Maps
+https://www.google.com/maps/place/Zouk+Club+Kuala+Lumpur/@3.14174,101.721486,16z/data=!4m5!3m4!1s0x0:0x2680f27527f7b4b1!8m2!3d3.14174!4d101.7214861?hl=en
+Youtube
+https://www.youtube.com/
+Spotify
+https://open.spotify.com/
 References
 The JQuery Foundation. Accordion Widget. Retrieved 10 October 2018 from
 https://api.jqueryui.com/1.10/accordion/
