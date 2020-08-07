@@ -1,0 +1,441 @@
+/* navigation bar */
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: montserrat;
+}
+
+nav {
+  background: white;
+  height: 80px;
+  width: 100%;
+  border-style: none none solid none;
+}
+
+nav .icon{
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0px 5px;
+}
+
+nav ul li a {
+  color: black;
+  font-size: 100%;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+a:hover {
+  background: #EA4949;
+  transition: .5s;
+}
+
+/* homepage part */
+
+  .tentative {
+  width: 100%; }
+
+  .FunForFunds {
+    position: absolute;
+    font-size: 500%;
+    font-family: "Comic Sans MS";
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);}
+
+  .PictureHome {
+    position: relative;
+    text-align: center;}
+
+  .CharityConcert {
+    position: absolute;
+    font-size: 300%;
+    font-family: "Comic Sans MS";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);}
+
+  .PictureHome .GetTicket {
+    position: absolute;
+    font-family: "Comic Sans MS";
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #EA4949;
+    color: white;
+    font-size: 20px;
+    padding: 14px 28px;
+    border: 4px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;}
+
+  .PictureHome .GetTicket:hover {
+    background-color: black;}
+
+  .Intro .h1  {
+    text-align: center;
+    font-size: 300%;
+    font-family: "Comic Sans MS";  }
+
+  .Intro .p  {
+    text-align: center;
+    font-size: 200%;
+    font-family: "Comic Sans MS";
+    padding:30px 100px }
+
+    /*goods*/
+
+    h1 {
+      background-color: #EA4949;
+      outline: 2px solid black;
+    }
+
+    h3 {
+      font-size: 20px;
+      color: red;
+    }
+
+    .imagex {
+      margin-left: 100px;
+      width: 250px;
+      height: 250px;
+      border: 3px solid black;
+    }
+
+    .tablegoods tr td .GetTicket{
+      font-family: "Comic Sans MS";
+      background-color: red;
+      color: white;
+      font-size: 20px;
+      padding: 14px 28px;
+      border: 4px solid black;
+      cursor: pointer;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    .tablegoods p{
+      margin-left: 0px;
+    }
+
+    .tablegoods h3{
+      font-size: 30px;
+      color: red;
+    }
+
+
+    .table tr td .GetTicket:hover {
+        background-color: black;
+    }
+
+    .tablegoods tr {
+      font-family: "Comic Sans MS";
+    }
+
+
+
+    /*ContactUs*/
+
+    .ContactUs {
+      position: absolute;
+      font-size: 500%;
+      font-family: "Comic Sans MS";
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -50%);}
+
+    .PictureHome {
+      position: relative;
+      text-align: center;}
+
+    .VisitUsAt {
+      position: absolute;
+      font-size: 300%;
+      font-family: "Comic Sans MS";
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);}
+
+      .box1 {
+        position: top;
+        padding-top: 75px;
+        background-color: black;
+        color: white;
+        font-size: 75px;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      .box2 {
+        position: bottom;
+        padding-top: 20px;
+        padding-bottom: 150px;
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+      }
+
+      p{
+        margin-left: 20px;
+        font-size: 19px;
+        font-weight: bold;
+      }
+
+      .container{
+        width: 80%;
+        max-width: 600px;
+        margin: 50px auto;
+      }
+
+      button.accordion{
+        width: 100%;
+        background-color: whitesmoke;
+        border: none;
+        outline: none;
+        text-align: left;
+        padding: 15px 20px;
+        font-size: 22px;
+        font-weight: bold;
+      }
+
+      button.accordion:hover{
+        background-color: #EA4949;
+      }
+
+      .accordion-content{
+        padding: 0 20px;
+        border-left: 1px solid whitesmoke;
+        border-right: 1px;
+        max-height: 0;
+        overflow: hidden;
+      }
+
+      .feedback{
+        border: 4px solid Tomato ;
+        border-radius: 4px;
+        background-color: Tomato;
+        width:630px;
+        font-size: 14px;
+        word-spacing: 1px;
+      }
+
+      input[type=submit] {
+        width: 50%;
+        background-color: #cccccc;
+        color: black;
+        padding: 10px 10px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+
+}
+
+    /*Order*/
+    .order div{
+      border: 1.5px solid  black;
+      background-color:  rgba(255, 0, 0, 0.6);
+
+    }
+
+    /*Info*/
+
+    .artist {
+      font-family: "Comic Sans MS";
+      margin-left: 30px;
+      margin-right: auto;
+      text-align: center;
+    }
+
+    .box4 {
+      position: absolute;
+      font-family: "Comic Sans MS";
+      background-color: black;
+      color: white;
+      padding: 50px 50px 50px 100px;
+      font-size: 500%;
+      text-align: left;
+      width: 100%
+    }
+
+    .map {
+      position: relative;
+      padding-left: 300px;
+    }
+
+    .box4 p {
+      margin-left: -20px;
+      color: #EA4949;
+      text-align: center;
+      font-size: 30px;
+    }
+
+    .box4 h1 {
+      margin-left: -20px;
+      text-align: center;
+      background-color: transparent;
+      font-size: 20px;
+    }
+
+    .flipcard a {
+      color: black;
+    }
+    /*Tickets*/
+
+    .box1 {
+      position: fixed;
+      font-family: "Comic Sans MS";
+      top:80px;
+      left: 25px;
+      padding: 255px 100px 0px 100px;
+      background-color: white;
+      color: black;
+      font-size: 40px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .box2 {
+      position: fixed;
+      font-family: "Comic Sans MS";
+      top: 405px;
+      left: 25px;
+      padding: 0px 105px 150px 100px;
+      background-color: white;
+      color: black;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    .box3 {
+      position: fixed;
+      font-family: "Comic Sans MS";
+      top: 80px;
+      right: 0px;
+      bottom: 25px;
+      left: 400px;
+      padding: 250px 0px 250px 0px;
+      background-color: black;
+      color: white;
+      font-size: 60px;
+      text-align: center;
+      text-decoration: underline;
+    }
+
+    .tix {
+    font-family: "Comic Sans MS";
+    margin-left: 150px;
+    margin-right: auto;
+    text-align: center;
+    }
+
+    /*INFO - FLIPCARD*/
+
+  .flipcard {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flipcard-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flipcard:hover .flipcard-inner {
+  transform: rotateY(180deg);
+}
+
+.flipcard-front, .flipcard-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flipcard-front {
+  background-color: #EA4949;
+  color: black;
+}
+
+.flipcard-back {
+  background-color: #EA4949;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.artistname {
+  text-decoration: underline;
+}
+
+/*ARTIST PROFILE*/
+
+.boxed {
+  background-color: #EA4949;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  border-top: 5px solid black;
+}
+
+.back {
+  position: relative;
+  font-family: "Comic Sans MS";
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #EA4949;
+  color: white;
+  font-size: 20px;
+  padding: 14px 28px;
+  border: 4px solid black;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.back:hover {
+  background-color: black;}
+
+  .youtube p{
+    color: black;
+  }
+
+  .youtube{
+    text-align: center;
+
+  }
+
+  .vid p{
+    padding-bottom: 10px;
+    padding-top: 50px;
+    font-size: 30px;
+    font-family: "Comic Sans MS";
+    color: black;
+  }
