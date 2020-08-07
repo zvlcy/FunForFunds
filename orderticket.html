@@ -1,0 +1,93 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>FunForFunds</title>
+  <link rel = "icon" type = "image/png" href = "Images/icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Styles/ticketorder.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+
+
+
+</head>
+
+<body>
+
+      <!-- Main Logo -->
+    <nav>
+      <img src="Images/icon.png" class="icon" style="width:60px;height:60px">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="Info.html">INFO</a></li>
+        <li><a href="Goods.html">GOODS</a></li>
+        <li><a href="Tickets.html">TICKETS</a></li>
+        <li><a href="ContactUs.html">CONTACT US</a></li>
+      </ul>
+    </nav><!-- End Main Navigation -->
+
+
+    <table1 class="table">
+    <h1 align="center">TICKET ORDER</h1><br>
+    <h2 align="center"> Place your ticket order in this form. </h2><br>
+
+    </table1>
+
+
+  <div class="container">
+    <form>
+
+        <div class="billing">
+          <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+          <input type="text" name="firstname" placeholder="Enter Your Name">
+          <label for="email"><i class="fa fa-envelope"></i> Email</label>
+          <input type="text" name="email" placeholder="Enter Your Email">
+          <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+          <input type="text" name="address" placeholder="Enter your Address">
+          <label for="city"><i class="fa fa-institution"></i> City</label>
+          <input type="text" name="city" placeholder="Enter Your City">
+        </div>
+
+
+            <div>
+              <label for="state">State</label>
+              <input type="text" name="state" placeholder="Enter Your State">
+            </div>
+            <div >
+              <label for="zip">Zip</label>
+              <input type="text" name="postcode" placeholder="Enter your Postcode">
+            </div>
+
+            <div>
+              <label for="ticket">Ticket Type</label><br><br>
+              <input type="radio" name="radio" value="normal">
+              <label for="normal">Normal Ticket</label><br>
+              <input type="radio" name="radio" value="Premium">
+              <label for="Premium">Premium Ticket</label>
+            </div>
+
+            <div>
+
+              <br>
+              <label> Upload Payment proof :</label><br><br>
+              <input type="file" name="pic" accept="image/*"><br/><br/>
+
+            </div>
+            <div class="g-recaptcha brochure__form__captcha"
+            data-sitekey="6LexvLsZAAAAALJ1zd1SjJp6js9bF0X5zoAVCZQT">
+            </div>
+            <div>
+              <br><br>
+            </div>
+
+      </div>
+  </div>
+</div>
+  <div class="buton">
+  <input type="submit" value="GET MY TICKET" onclick="ticketpurchase()" class="btn"></input><br>
+  </div>
+    </form>
+
+<script src="Java/ticket.js"></script>
+</body>
+</html>
